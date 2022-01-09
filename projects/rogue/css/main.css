@@ -1,0 +1,173 @@
+/******BASE STYLES*****/
+
+.body{
+  color: #ffffff;
+  font-family: 'Montserrat'; Sans-Serif;
+}
+
+/*****GRID*****/
+
+.full-width{
+  width: 1200px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+}
+
+/*****HEADER*****/
+
+header h1 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header h1 span {
+ font-family: 'Montserrat', sans-serif;
+ color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 15px 35px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #77a466;
+  padding-left: 14px;
+  font-size: 14px;
+}
+#image {
+   border-top: 5px solid #77a466;
+   border-bottom: 5px solid #77a466;
+ }
+/*****ABOUT*****/
+
+#about .full-width {
+  padding: 20px;
+}
+
+h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+/*****INFORMATION*****/
+
+#info .full-width {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 1px;
+}
+
+#info h3 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: justify;
+}
+
+#menu .third-width{
+  width: 398px;
+}
+
+#menu ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 12px;
+} 
+
+#menu li a{
+  font-size: 14px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #9bbc8f;
+  letter-spacing: 1px;
+  font-weight: lighten;
+}
+
+#reviews.third-width{
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  width: 398px;
+}
+
+#reviews h3 {
+  font-size: 12px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+#reviews p {
+  font-size: 16px;
+  font-weight: 700px;
+  line-height: 25px;
+  margin: 0px 18px 18px 18px;
+  word-spacing: 2px;
+  padding-right: 30px;
+}
+
+#content.third-width{
+  float: right;
+  width: 398px;
+}
+
+#content h3{
+  font-size: 12px;
+  padding: 10px;
+  margin: 15px;
+}
+
+#content p{
+  font-size: 16px;
+  line-height: 25px;
+  margin: 0px 100px 0px 25px;
+  word-spacing: 3px;
+}
+
+/*****FOOTER*****/
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+  word-spacing: 3px;
+}
+
+h3 span {
+  color: #77a466;
+  font-style: italic;
+  font-family: 'Galada', sans-serif;
+  text-transform: lowercase;
+}
