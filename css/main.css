@@ -275,14 +275,6 @@ textarea {
      width:100%;
      }
 
-     .parallax{
-      background: url(../img/couchdog.jpg);
-      height:25%;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
 
   /**************TECHSKILLS***********/
 
@@ -365,7 +357,18 @@ textarea {
     justify-content: center;
   }
 
- /*********TECHSKILLS**********/
+  /********PARALLAX*********/
+  
+  .parallax{
+    background: url(../img/couchdog.jpg);
+    height:25%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*********TECHSKILLS**********/
 
   .skillset {
     font-size: 1em;
