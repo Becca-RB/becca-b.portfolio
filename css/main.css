@@ -88,11 +88,12 @@ textarea {
    ========================================================================== */
    
    /**************GENERAL STYLES***************/
-   body {
-    background: url(../img/tan-background.jpg);
+   body, html{
+     height:100%;
+     background: url(../img/tan-background.jpg);
   }
   
-  h2, h3, p, h1, i{
+  h2, h3, p, i{
     color:white;
   }
 
@@ -100,14 +101,11 @@ textarea {
   /*******HEADER**********/
   header .content-wrapper{
     flex-wrap: wrap;
-   
-  }
-  
-  header .content-wrapper{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+
 
   nav ul {
     display:flex;
@@ -132,12 +130,33 @@ textarea {
    text-decoration: none;
  }
 
+ /***********PORTFOLIO************/
+
+ .portfolio h1{
+   color:white;
+ }
+
+ /**********TECH SKILLS***********/
+
+ .techskills{
+   display:flex;
+   background:#bfbfbf;
+   justify-content: center;
+ }
+
+ .skillset{
+   display:flex;
+ }
+
+ .skillset p {
+  display:flex;
+  margin:20px 40px 20px 40px;
+ }
+
  /**************ABOUT*************/
 
  input {
    border-radius: 25px;
-   font-size: .75em;
-   font-weight: lighter;
    text-align: center;
  }
 
@@ -147,7 +166,6 @@ textarea {
   footer .content-wrapper{
     display: flex;
     justify-content: center;
-
  }
 
  .footer-content{
@@ -155,6 +173,7 @@ textarea {
    flex-direction: row;
    width: 25%;
  } 
+
 
  .contact h3, .social h3{
    text-align: center;
@@ -219,6 +238,7 @@ textarea {
 
 .portfolio .content-wrapper{
     display:flex;
+  
    }
    
    .portfolio article{
@@ -255,6 +275,25 @@ textarea {
      width:100%;
      }
 
+     .parallax{
+      background: url(../img/couchdog.jpg);
+      height:25%;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  /**************TECHSKILLS***********/
+
+  .skillset{
+    font-size: .5em;
+  }
+
+  .skillset p{
+    margin:5px;
+    padding:2px;
+  }
   
    /**************ABOUT*************/
 
@@ -266,6 +305,7 @@ textarea {
 
    .about p{
      padding:20px;
+     margin-top: 0;
    }
 
    .more-info{
@@ -325,6 +365,16 @@ textarea {
     justify-content: center;
   }
 
+ /*********TECHSKILLS**********/
+
+  .skillset {
+    font-size: 1em;
+  }
+
+  .skillset p{
+    padding:5px 25px;
+  }
+
   /***********ABOUT**********/
 
   .about p {
@@ -348,10 +398,6 @@ textarea {
 
  @media screen and (min-width: 1200px) {
    
-   
-   header{
-     height:
-   }
 
    header .content-wrapper{
     height:75px;
@@ -402,11 +448,18 @@ textarea {
   /*******PORTFOLIO SECTION*******/
 
  .portfolio{
-   height:100%;
+   height:1000px;
+   
+ }
+
+ .portfolio h1{
+   height: 75px;
+   color:white;
  }
 
   .portfolio img{
     width:100%;
+    border:black 1px solid;
   }
    
 
@@ -471,6 +524,24 @@ textarea {
     width:30%;
     padding-bottom: 40px;
    }
+
+  /********PARALLAX*************/
+
+   .parallax{
+    background: url(../img/couchdog.jpg);
+    height:40%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /***********TECHSKILLS*******/
+
+  .skillset p{
+  margin: 15px 50px 15px 50px;
+  }
 
    /*****ABOUT SECTION*****/
 
